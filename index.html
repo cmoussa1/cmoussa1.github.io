@@ -16,17 +16,21 @@
         <link rel="stylesheet" href="octicons/octicons.css">
     <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 12px "Playfair Display", serif; line-height: 18px; }
+        body { 
+            font: 12px "Trebuchet MS", serif; 
+            line-height: 18px;
+            background-image: #abb3d9;
+        }
         .clear { clear: both; }
         #page-wrap { width: 700px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 16px 0 16px 0; font-size: 36px; font-family: "Playfair Display SC", serif; font-weight: bold; border-bottom: 1px solid #999; }
-        h2 { font-size: 12px; font-family: "Playfair Display", serif; font-weight: normal; position: relative; }
-        h2 strong { font-size: 16px; font-family: "Playfair Display"; padding: 0 10px 0 0; }
-        h2 span { position: absolute; margin: 0 5px 0 0; top: 0; right: 0; text-align: right; font-family: "Playfair Display", Georgia, Serif; font-size: 12px; color: #999; font-weight: normal; }
+        h1 { margin: 0 0 16px 0; padding: 16px 0 16px 0; font-size: 36px; font-family: "Trebuchet MS", serif; font-weight: bold; border-bottom: 1px solid #999; }
+        h2 { font-size: 12px; font-family: "Trebuchet MS", serif; font-weight: normal; position: relative; }
+        h2 strong { font-size: 16px; font-family: "Trebuchet MS"; padding: 0 10px 0 0; }
+        h2 span { position: absolute; margin: 100 5px 0 0; top: 0; right: -130px; text-align: right; font-family: "Trebuchet MS", Georgia, Serif; font-size: 12px; color: #999; font-weight: normal; }
         p { position: relative; }
-        p.floating { position: relative; margin: -60px 5px 0 0; text-align: right; float: right; font-size: 12px; font-family: "Playfair Display"; }
-        p span { position: absolute; margin: 0 5px 0 0; top: 0; right: 0; font-family: "Playfair Display", Georgia, Serif; font-size: 12px; font-weight: normal; }
+        p.floating { position: relative; margin: -60px 5px 0 0; text-align: right; float: right; font-size: 12px; font-family: "Trebuchet MS"; }
+        p span { position: absolute; margin: 0 5px 0 0; top: 0; right: 0; font-family: "Trebuchet MS", Georgia, Serif; font-size: 12px; font-weight: normal; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 0 18px; }
@@ -35,12 +39,12 @@
         ul.inset { list-style: none; margin: -2px 0 0 14px; }
         ol { margin: 0 0 0 18px; }
         ol li { position: relaitive; }
-        ol li span { text-align: right; float: right; padding: 0 5px 0 0; color: #999; }
+        ol li span { text-align: right: -130px; float: right; padding: 0 5px 0 0; color: #999; }
         ol.inset { list-style: none; margin: -2px 0 0 14px; }
         /* ul li span { position: absolute; bottom: 0; right: 0; font-style: italic; } */
         #objective { width: 700px; float: left; }
-        #objective p { font-family: "Playfair Display", Serif; font-style: italic; font-size: 12px; }
-        dt { font-weight: bold; font-family: "Playfair Display"; font-size: 14px; text-align: center; width: 75px; float: left; }
+        #objective p { font-family: "Trebuchet MS", Serif; font-style: italic; font-size: 12px; }
+        dt { font-weight: bold; font-family: "Trebuchet MS"; font-size: 14px; text-align: center; width: 75px; float: left; }
         dd { width: 575px; float: right; border-left: 1px solid #999; padding: 0 0 0 26px; }
         dd.clear { float: none; margin: 0; height: 20px; border-left: none; }
         .smartmargin { margin: 8px 0 0 0; }
@@ -56,7 +60,7 @@
 
     <div id="page-wrap">
 
-        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
+        <!-- <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" /> -->
 
         <div id="contact-info" class="vcard">
 
@@ -85,51 +89,99 @@
             <dd>
                 <h2><strong>San Diego State University</strong>San Diego, CA</h2>
                 <ul>
-                    <li>B.S. Computer Science: 3.66/4.0<span>May 2019</span></li>
+                    <li>B.S. Computer Science: 3.7/4.0<span>May 2019</span></li>
                     <ul class="inset"><li>Magna Cum Laude</li></ul>
                 </ul>
             </dd>
 
             <dd class="clear"></dd>
+            <dt> Technical Experience</dt>
+            <dd>
+                <h2><strong>Software Engineer Intern</strong>Lawrence Livermore National Laboratory <span>June 2018&ndash;August 2018</span></h2>
+                <ul>
+                    <li>Implemented a hostlist-management command-line tool in Python </li>
+                    <li>Created a project structure for the command-line tool on GitHub and incorporated collaborative tools such as Travis Continuous Integration, Code Coverage, and ReadTheDocs</li>
+                    <li>Attended seminars on Git and Introduction to Parallel Programming</li>
+                    <li>Presented project accomplishments in an oral presentation</li>
+                </ul>
+
+                <h2 class="smartmargin"><strong>Cyber Defender Intern</strong>Lawrence Livermore National Laboratory <span>June 2017&ndash;August 2017</span></h2>
+                <ul>
+                    <li>Researched and implemented an operating system management framework that monitored computer systems for anomalous activity</li>
+                    <li>Developed custom dashboards in Splunk to provide a centralized view of distributed system information</li>
+                    <li>Attended classes on Linux fundamentals, web security, and basic networking</li>
+                    <li>Presented project accomplishments in oral and poster presentations</li>
+                </ul>
+
+                <h2 class="smartmargin"><strong>High Performance Computing Intern</strong>Lawrence Livermore National Laboratory <span>June 2016&ndash;August 2016</span></h2>
+                <ul>
+                    <li>Wrote a computer inventory application in Golang that logged system information such as CPU, memory, and hard drive specifications, which could then be forwarded to outside visualization tools for analysis</li>
+                    <li>Attended classes on cluster building and the system boot process</li>
+                    <li>Presented project accomplishments in oral and poster presentations</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt> Other Experience</dt>
+            <dd>
+                <h2><strong>Senior Resident Advisor</strong>San Diego State University <span>July 2018&ndash;May 2019</span></h2>
+                <ul>
+                    <li>Served as head of resident advisors and academic mentors in respective residence hall </li>
+                    <li>Attended meetings with Residence Hall Coordinator to discuss strategies of improving workflow of residential education staff</li>
+                    <li>Performed administrative work such as program tracking, program and meeting scheduling, and coordinating office hours for other resident advisors</li>
+                </ul>
+
+                <h2 class="smartmargin"><strong>Student Athlete Academic Tutor</strong>San Diego State University <span>July 2018&ndash;May 2019</span></h2>
+                <ul>
+                    <li>Tutored student-athletes in various school subjects such as Calculus, Computer Science, History, and English Writing</li>
+                </ul>
+
+                <h2 class="smartmargin"><strong>Resident Advisor</strong>San Diego State University <span>August 2016&ndash;May 2018</span></h2>
+                <ul>
+                    <li>Served as an academic and personal resource to students living in the residence halls</li>
+                    <li>Hosted programs that outline resources available to students while attending the university</li>
+                    <li>Helped mediate conflicts between residents</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
             <dt>Skills</dt>
             <dd>
-                <h2><strong>Office skills</strong></h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-
-                <h2 class="smartmargin"><strong>Computer skills</strong></h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+                <h2><strong>Languages</strong></h2>
+                    <ul class="inset">
+                        <li>Python, Java, Golang, Splunk Processing Language, MySQL </li>
+                    </ul>
+                <h2><strong>Operating Systems</strong></h2>
+                    <ul class="inset">
+                        <li>Mac OS X, Windows 10, Linux</li>
+                    </ul>
+                <h2><strong>Software</strong></h2>
+                    <ul class="inset">
+                        <li>GitHub, Confluence, JIRA, Splunk, osquery</li>
+                    </ul>
             </dd>
 
             <dd class="clear"></dd>
-            <dt>Experience</dt>
+            <dt>Honors and Awards</dt>
             <dd>
-                <h2><strong>Leader & Overlord</strong>Doomsday Cult, Baton Rogue, LA <span>1926&ndash;Present</span></h2>
-                <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
-                </ul>
-
-                <h2 class="smartmargin"><strong>Bartender/Server</strong>The Watering Hole, Milwaukee, WI <span>2009</span></h2>
-                <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
-                </ul>
-            </dd>
-
-            <dd class="clear"></dd>
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-
-            <dd class="clear"></dd>
-            <dt>References</dt>
-            <dd>Available on request</dd>
-
-            <dd class="clear noprint"></dd>
-            <dt class="noprint">Links</dt>
-            <dd class="noprint">
-              <a href="https://github.com/gonsie/Cthulu-Resume"><span class="octicon octicon-mark-github" style="position: relative; color: black; margin: 3px;"></span>Find This on GitHub</a>
+                <h2>
+                  <strong>San Diego State University Dean's List</strong>
+                  <span>Fall 2015 - Fall 2018</span>
+                </h2>
+                <h2 class="smartmargin">
+                    <strong>LLNL Cyber Defender Poster Presentation Winner</strong>
+                    <span>August 2017</span>
+                </h2>
+                <h2 class="smartmargin">
+                    <strong>College Board AP Scholar with Honors</strong>
+                    <span>September 2015</span>
+                </h2>
+                <h2 class="smartmargin">
+                    <strong>United States Army National Scholar-Athlete Award</strong>
+                    <span>May 2015</span>
+                </h2>
             </dd>
 
             <dd class="clear"></dd>
@@ -137,7 +189,7 @@
 
         <div class="clear"></div>
 
-        <p class="noprint">Last Updated: December 31, 2009</p>
+        <p class="noprint">Last Updated: July 23rd, 2019</p>
     </div>
 
 </body>
