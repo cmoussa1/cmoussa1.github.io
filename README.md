@@ -54,3 +54,4 @@ These examples demonstrate how different fonts can be used.
 | [@gonsie](http://github.com/gonsie) | [Resume](http://gonsie.com/cv.html) | [On GitHub](https://github.com/gonsie/gonsie.github.io) |
 | [@annagons](http://github.com/annagons) | [Resume](http://anna.gonsie.com) | [On GitHub](https://github.com/annagons/annagons.github.io) |
 | [@mozhgan-kch](http://github.com/mozhgan-kch) | [Resume](http://mkchimeh.staff.shef.ac.uk) | [On GitHub](https://github.com/mozhgan-kch/mkch-webpage) |
+| [@cmoussa1](https://github.com/cmoussa1) | [Resume](https://cmoussa1.github.io) | [On GitHub](https://github.com/cmoussa1/cmoussa1.github.io) |
